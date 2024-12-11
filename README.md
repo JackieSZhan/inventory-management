@@ -1,45 +1,48 @@
-# Build a Fullstack Inventory Management Dashboard
+The project is from https://github.com/ed-roh/inventory-management/tree/master
 
-[![Tutorial Video](https://img.youtube.com/vi/ddKQ8sZo_v8/0.jpg)](https://www.youtube.com/watch?v=ddKQ8sZo_v8)
+Main Goal:
+  Build a complete full-stack inventory management dashboard with Next.js front end, and Node.js back end, and deploy on AWS.
 
-Link to related video: https://www.youtube.com/watch?v=ddKQ8sZo_v8
+Steps:
 
-## Tutorial
+  Creating VPC and Subnets in AWS.
+  
+  Creating public and private subnets in VPC.
 
-This repository contains the code corresponding to an in-depth tutorial available on my YouTube channel. It is highly suggested to watch the [tutorial video](https://www.youtube.com/watch?v=ddKQ8sZo_v8) as it includes detailed instructions on how to set up everything, including deploying AWS. This tutorial is designed for both beginners and experts.
-
-Join our [Discord community](https://discord.com/channels/1070200085440376872/1267499814678171698) for discussions about this specific app.
-
-## Tech Stack
-
-- **Next JS**
-- **Tailwind**
-- **Redux Toolkit**
-- **Redux Toolkit Query**
-- **Material UI Data Grid**
-- **Node.js**
-- **Prisma**
-- **AWS EC2**
-- **AWS RDS**
-- **AWS API Gateway**
-- **AWS Amplify**
-- **AWS S3**
-
-## Resources and Links
-
-### Image Files
-
-- [Server assets to download](https://github.com/ed-roh/inventory-management/tree/master/server/assets)
-
-### Configuration and Code
-
-- [tailwind.config.ts](https://github.com/ed-roh/inventory-management/blob/master/client/tailwind.config.ts) (to copy)
-- [Redux store file](https://github.com/ed-roh/inventory-management/blob/master/client/src/app/redux.tsx) (to copy)
-- [Seed files for database](https://github.com/ed-roh/inventory-management/blob/master/server/prisma/seed.ts) (to copy)
-- [Seed data files](https://github.com/ed-roh/inventory-management/tree/master/server/prisma/seedData) (to download)
-
-### Additional Resources
-
-- [Data model diagram](https://drawsql.app/teams/team-3023/diagrams/56-inventorymanagement)
-- [Prisma schema file](https://github.com/ed-roh/inventory-management/blob/master/server/prisma/schema.prisma)
-- [AWS commands](https://github.com/ed-roh/inventory-management/blob/master/server/aws-ec2-instructions.md)
+  Setting up route tables for VPC.
+  
+  Connecting route tables to subnets for public and private access.
+  
+  Setting up EC2 instance as backend server.
+  
+  Setting up EC2 instance for internet access.
+  
+  Installation of pm2 and NVM for easy application hosting and management.
+  
+  Properly configuring Git ignore and Environment variables.
+  
+  Deploying and running the application on EC2 instance.
+  
+  Configuring and running the server on port 80.
+  
+  Setting up RDS on AWS for database management.
+  
+  Creating private subnets for RDS on AWS.
+  
+  Configuring RDS Security Group for Inbound Traffic.
+  
+  Setting up RDS and connecting to EC2 instance.
+  
+  Setting up Nextjs dashboard with EC2, RDS, and S3 on AWS.
+  
+  Setting up an AWS Amplify app to manage your application.
+  
+  Deploying Next.js app on AWS with environment variable changes.
+  
+  Setting up S3 storage for images in AWS.
+  
+  Configure Next.js application using Amplify to accept image values.
+  
+  Configuring images with specific details for different sections.
+  
+  Building and deploying an enterprise-level application on AWS.
